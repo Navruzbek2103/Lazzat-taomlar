@@ -1,0 +1,77 @@
+/* comfortaa-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/comfortaa-v40-latin-regular.woff2") format("woff2");
+}
+/* comfortaa-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/comfortaa-v40-latin-500.woff2") format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 50px; /* bottom = footer height */
+  font-family: "Comfortaa";
+  font-weight: normal;
+}
+@media only screen and (max-width: 900px) {
+  body{
+    margin: 0 0 45px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  body{
+    margin: 0 0 40px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  body{
+    margin: 0 0 110px;
+  }
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+}
+
+ol, ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.container-big{
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}

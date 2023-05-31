@@ -1,0 +1,829 @@
+.header {
+  margin-bottom: 40px;
+}
+
+.nav {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__link {
+    margin: 45px auto 96px;
+    width: 280px;
+    height: 175px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background-image: url("./../../assets/images/chef-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    transition: transform .6s ease-in;
+
+    &:hover {
+      color: #000;
+      transform: rotate(360deg);
+    }
+
+    &-title {
+      font-size: 60px;
+      line-height: 65px;
+    }
+
+    &-text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item {
+
+    &-link {
+      text-decoration: none;
+      padding: 17px 50px;
+      display: block;
+      text-transform: uppercase;
+      color: #000;
+      font-size: 16px;
+
+      &:hover {
+        color: #000;
+        background-color: #a2a2a2;
+      }
+
+      &:active {
+        background-color: #c1bfbf;
+        transform: scale(.96);
+      }
+    }
+  }
+
+
+}
+
+@media only screen and (max-width: 1040px) {
+  .header {
+    margin-bottom: 30px;
+    // border: 1px solid red;
+  }
+
+  .nav {
+    // border: 1px solid red;
+    // position: relative;
+    // width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    &__link {
+      // border: 1px solid red;
+      margin: 40px auto 76px;
+      // width: 280px;
+      // height: 175px;
+      // text-decoration: none;
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // justify-content: center;
+      // color: #000;
+      // background-image: url("./../../assets/images/chef-icon.png");
+      // background-repeat: no-repeat;
+      // background-position: center;
+      // background-size: auto;
+      // transition: transform .6s ease-in;
+
+      // &:hover {
+      //   color: #000;
+      //   transform: rotate(360deg);
+      // }
+
+      // &-title {
+      //   font-size: 60px;
+      //   line-height: 65px;
+      // }
+
+      // &-text {
+      //   font-size: 16px;
+      //   line-height: 20px;
+      // }
+    }
+
+    // &__list {
+    //   border: 1px solid red;
+    //   display: flex;
+    //   border-top: 1px solid gray;
+    //   border-bottom: 1px solid gray;
+    //   align-items: center;
+    //   justify-content: center;
+    // }
+
+    &__item {
+
+      &-link {
+        // border: 1px solid red;
+        // text-decoration: none;
+        padding: 17px 30px;
+        // display: block;
+        // text-transform: uppercase;
+        // color: #000;
+        // font-size: 16px;
+
+        // &:hover {
+        //   color: #000;
+        //   background-color: #a2a2a2;
+        // }
+
+        // &:active {
+        //   background-color: #c1bfbf;
+        //   transform: scale(.96);
+        // }
+      }
+    }
+
+
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .header {
+    margin-bottom: 25px;
+    // border: 1px solid red;
+  }
+
+  .nav {
+    // border: 1px solid red;
+    // position: relative;
+    // width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    &__link {
+      // border: 1px solid red;
+      margin: 25px auto 50px;
+      // width: 280px;
+      // height: 175px;
+      // text-decoration: none;
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // justify-content: center;
+      // color: #000;
+      // background-image: url("./../../assets/images/chef-icon.png");
+      // background-repeat: no-repeat;
+      // background-position: center;
+      // background-size: auto;
+      // transition: transform .6s ease-in;
+
+      // &:hover {
+      //   color: #000;
+      //   transform: rotate(360deg);
+      // }
+
+      // &-title {
+      //   font-size: 60px;
+      //   line-height: 65px;
+      // }
+
+      // &-text {
+      //   font-size: 16px;
+      //   line-height: 20px;
+      // }
+    }
+
+    // &__list {
+    //   border: 1px solid red;
+    //   display: flex;
+    //   border-top: 1px solid gray;
+    //   border-bottom: 1px solid gray;
+    //   align-items: center;
+    //   justify-content: center;
+    // }
+
+    &__item {
+
+      &-link {
+        // border: 1px solid red;
+        // text-decoration: none;
+        padding: 13px 25px;
+        // display: block;
+        // text-transform: uppercase;
+        // color: #000;
+        // font-size: 16px;
+
+        // &:hover {
+        //   color: #000;
+        //   background-color: #a2a2a2;
+        // }
+
+        // &:active {
+        //   background-color: #c1bfbf;
+        //   transform: scale(.96);
+        // }
+      }
+    }
+
+
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    margin-bottom: 20px;
+    // border: 1px solid red;
+  }
+
+  .nav {
+    // border: 1px solid red;
+    // position: relative;
+    // width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    &__link {
+      // border: 1px solid red;
+      margin: 20px auto 35px;
+      // width: 280px;
+      // height: 175px;
+      // text-decoration: none;
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // justify-content: center;
+      // color: #000;
+      // background-image: url("./../../assets/images/chef-icon.png");
+      // background-repeat: no-repeat;
+      // background-position: center;
+      background-size: 56%;
+      // transition: transform .6s ease-in;
+
+      // &:hover {
+      //   color: #000;
+      //   transform: rotate(360deg);
+      // }
+
+      &-title {
+        font-size: 55px;
+        line-height: 60px;
+      }
+
+      // &-text {
+      //   font-size: 16px;
+      //   line-height: 20px;
+      // }
+    }
+
+    // &__list {
+    //   border: 1px solid red;
+    //   display: flex;
+    //   border-top: 1px solid gray;
+    //   border-bottom: 1px solid gray;
+    //   align-items: center;
+    //   justify-content: center;
+    // }
+
+    &__item {
+
+      &-link {
+        // border: 1px solid red;
+        // text-decoration: none;
+        padding: 10px 18px;
+        // display: block;
+        // text-transform: uppercase;
+        // color: #000;
+        font-size: 15px;
+
+        // &:hover {
+        //   color: #000;
+        //   background-color: #a2a2a2;
+        // }
+
+        // &:active {
+        //   background-color: #c1bfbf;
+        //   transform: scale(.96);
+        // }
+      }
+    }
+
+
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .header {
+    margin-bottom: 15px;
+    // border: 1px solid red;
+  }
+
+  .nav {
+    // border: 1px solid red;
+    // position: relative;
+    // width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    &__link {
+      // border: 1px solid red;
+      margin: 15px auto 25px;
+      // width: 280px;
+      // height: 175px;
+      // text-decoration: none;
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // justify-content: center;
+      // color: #000;
+      // background-image: url("./../../assets/images/chef-icon.png");
+      // background-repeat: no-repeat;
+      // background-position: center;
+      background-size: 55%;
+      // transition: transform .6s ease-in;
+
+      // &:hover {
+      //   color: #000;
+      //   transform: rotate(360deg);
+      // }
+
+      // &-title {
+      //   font-size: 55px;
+      //   line-height: 60px;
+      // }
+
+      // &-text {
+      //   font-size: 16px;
+      //   line-height: 20px;
+      // }
+    }
+
+    // &__list {
+    //   border: 1px solid red;
+    //   display: flex;
+    //   border-top: 1px solid gray;
+    //   border-bottom: 1px solid gray;
+    //   align-items: center;
+    //   justify-content: center;
+    // }
+
+    &__item {
+
+      &-link {
+        // border: 1px solid red;
+        // text-decoration: none;
+        padding: 10px 14px;
+        // display: block;
+        // text-transform: uppercase;
+        // color: #000;
+        font-size: 14px;
+
+        // &:hover {
+        //   color: #000;
+        //   background-color: #a2a2a2;
+        // }
+
+        // &:active {
+        //   background-color: #c1bfbf;
+        //   transform: scale(.96);
+        // }
+      }
+    }
+
+
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .header {
+    margin-bottom: 20px;
+    // border: 1px solid red;
+  }
+
+  .nav {
+    // border: 1px solid red;
+    // position: relative;
+    // width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    &__link {
+      // border: 1px solid red;
+      margin: 10px auto 15px;
+      width: 265px;
+      // height: 175px;
+      // text-decoration: none;
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // justify-content: center;
+      // color: #000;
+      // background-image: url("./../../assets/images/chef-icon.png");
+      // background-repeat: no-repeat;
+      // background-position: center;
+      background-size: 52%;
+      // transition: transform .6s ease-in;
+
+      // &:hover {
+      //   color: #000;
+      //   transform: rotate(360deg);
+      // }
+
+      &-title {
+        font-size: 48px;
+        line-height: 58px;
+      }
+
+      &-text {
+        font-size: 15px;
+        //   line-height: 20px;
+      }
+    }
+
+    // &__list {
+    //   border: 1px solid red;
+    //   display: flex;
+    //   border-top: 1px solid gray;
+    //   border-bottom: 1px solid gray;
+    //   align-items: center;
+    //   justify-content: center;
+    // }
+
+    &__item {
+
+      &-link {
+        // border: 1px solid red;
+        // text-decoration: none;
+        padding: 10px 12px;
+        // display: block;
+        // text-transform: uppercase;
+        // color: #000;
+        font-size: 13px;
+
+        // &:hover {
+        //   color: #000;
+        //   background-color: #a2a2a2;
+        // }
+
+        // &:active {
+        //   background-color: #c1bfbf;
+        //   transform: scale(.96);
+        // }
+      }
+    }
+
+
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  // .header {
+  // margin-bottom: 10px;
+  // border: 1px solid red;
+  // }
+
+  .nav {
+    // border: 1px solid red;
+    // position: relative;
+    // width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    // &__link {
+    // border: 1px solid red;
+    // margin: 10px auto 15px;
+    // width: 265px;
+    // height: 175px;
+    // text-decoration: none;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // color: #000;
+    // background-image: url("./../../assets/images/chef-icon.png");
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: 52%;
+    // transition: transform .6s ease-in;
+
+    // &:hover {
+    //   color: #000;
+    //   transform: rotate(360deg);
+    // }
+
+    // &-title {
+    //   font-size: 48px;
+    //   line-height: 58px;
+    // }
+
+    // &-text {
+    //   font-size: 15px;
+    //   //   line-height: 20px;
+    // }
+    // }
+
+    &__list {
+      //   border: 1px solid red;
+      //   display: flex;
+      //   border-top: 1px solid gray;
+      //   border-bottom: 1px solid gray;
+      //   align-items: center;
+      // justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+
+      &-link {
+        // border: 1px solid red;
+        // text-decoration: none;
+        padding: 10px 22px;
+        // display: block;
+        // text-transform: uppercase;
+        // color: #000;
+        font-size: 14px;
+
+        // &:hover {
+        //   color: #000;
+        //   background-color: #a2a2a2;
+        // }
+
+        // &:active {
+        //   background-color: #c1bfbf;
+        //   transform: scale(.96);
+        // }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  // .header {
+  //   margin-bottom: 10px;
+  // border: 1px solid red;
+  // }
+
+  .nav {
+    // border: 1px solid red;
+    // position: relative;
+    // width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    &__link {
+      text-align: center;
+      // border: 1px solid red;
+      // margin: 10px auto 15px;
+      width: 235px;
+      height: 150px;
+      // text-decoration: none;
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // justify-content: center;
+      // color: #000;
+      // background-image: url("./../../assets/images/chef-icon.png");
+      // background-repeat: no-repeat;
+      // background-position: center;
+      background-size: 55%;
+      // transition: transform .6s ease-in;
+
+      // &:hover {
+      //   color: #000;
+      //   transform: rotate(360deg);
+      // }
+
+      &-title {
+        font-size: 46px;
+        line-height: 50px;
+      }
+
+      // &-text {
+      //   font-size: 15px;
+      //   //   line-height: 20px;
+      // }
+    }
+
+    // &__list {
+    //   border: 1px solid red;
+    //   display: flex;
+    //   border-top: 1px solid gray;
+    //   border-bottom: 1px solid gray;
+    //   align-items: center;
+    // justify-content: flex-start;
+    // flex-wrap: wrap;
+    // }
+
+    &__item {
+
+      &-link {
+        // border: 1px solid red;
+        // text-decoration: none;
+        padding: 10px 20px;
+        // display: block;
+        // text-transform: uppercase;
+        // color: #000;
+        // font-size: 14px;
+
+        // &:hover {
+        //   color: #000;
+        //   background-color: #a2a2a2;
+        // }
+
+        // &:active {
+        //   background-color: #c1bfbf;
+        //   transform: scale(.96);
+        // }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  // .header {
+  //   margin-bottom: 10px;
+  // border: 1px solid red;
+  // }
+
+  .container {
+    padding: 0 15px !important;
+  }
+
+  .nav {
+    // border: 1px solid red;
+    // position: relative;
+    // width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    &__link {
+      // text-align: center;
+      // border: 1px solid red;
+      // margin: 10px auto;
+      width: 210px;
+      height: 140px;
+      // text-decoration: none;
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // justify-content: center;
+      // color: #000;
+      // background-image: url("./../../assets/images/chef-icon.png");
+      // background-repeat: no-repeat;
+      // background-position: center;
+      background-size: 58%;
+      // transition: transform .6s ease-in;
+
+      // &:hover {
+      //   color: #000;
+      //   transform: rotate(360deg);
+      // }
+
+      &-title {
+        font-size: 42px;
+        line-height: 48px;
+      }
+
+      // &-text {
+      //   font-size: 15px;
+      //   //   line-height: 20px;
+      // }
+    }
+
+    // &__list {
+    //   border: 1px solid red;
+    //   display: flex;
+    //   border-top: 1px solid gray;
+    //   border-bottom: 1px solid gray;
+    //   align-items: center;
+    // justify-content: flex-start;
+    // flex-wrap: wrap;
+    // }
+
+    &__item {
+
+      &-link {
+        // border: 1px solid red;
+        // text-decoration: none;
+        padding: 9px 17px;
+        // display: block;
+        // text-transform: uppercase;
+        // color: #000;
+        // font-size: 14px;
+
+        // &:hover {
+        //   color: #000;
+        //   background-color: #a2a2a2;
+        // }
+
+        // &:active {
+        //   background-color: #c1bfbf;
+        //   transform: scale(.96);
+        // }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  // .header {
+  //   margin-bottom: 10px;
+  // border: 1px solid red;
+  // }
+
+  .container {
+    padding: 0 13px !important;
+  }
+
+  .nav {
+    // border: 1px solid red;
+    // position: relative;
+    // width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    // &__link {
+    // text-align: center;
+    // border: 1px solid red;
+    // margin: 10px auto;
+    // width: 210px;
+    // height: 140px;
+    // text-decoration: none;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // color: #000;
+    // background-image: url("./../../assets/images/chef-icon.png");
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: 58%;
+    // transition: transform .6s ease-in;
+
+    // &:hover {
+    //   color: #000;
+    //   transform: rotate(360deg);
+    // }
+
+    // &-title {
+    //   font-size: 42px;
+    //   line-height: 48px;
+    // }
+
+    // &-text {
+    //   font-size: 15px;
+    //   //   line-height: 20px;
+    // }
+    // }
+
+    // &__list {
+    //   border: 1px solid red;
+    //   display: flex;
+    //   border-top: 1px solid gray;
+    //   border-bottom: 1px solid gray;
+    //   align-items: center;
+    // justify-content: flex-start;
+    // flex-wrap: wrap;
+    // }
+
+    &__item {
+
+      &-link {
+        // border: 1px solid red;
+        // text-decoration: none;
+        padding: 9px 14px;
+        // display: block;
+        // text-transform: uppercase;
+        // color: #000;
+        // font-size: 14px;
+
+        // &:hover {
+        //   color: #000;
+        //   background-color: #a2a2a2;
+        // }
+
+        // &:active {
+        //   background-color: #c1bfbf;
+        //   transform: scale(.96);
+        // }
+      }
+    }
+  }
+}
