@@ -179,6 +179,10 @@
           font-size: 24px;
           margin-bottom: 15px;
         }
+
+        &-desc{
+          line-height: 25px;
+        }
       }
     }
   }
@@ -199,6 +203,7 @@
 
         &-desc {
           font-size: 15px;
+        line-height: 23px;
         }
       }
     }

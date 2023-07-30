@@ -50,7 +50,7 @@ const index = () => {
                            <li className="home-page__item" key={cardId}>
                               <Link to={`${cardId}`} className="home-page__item-link" onClick={() => {
                                  window.scrollTo({
-                                    top: 315,
+                                    top: 0,
                                  })
                               }}
                               >

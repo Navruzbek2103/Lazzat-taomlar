@@ -54,7 +54,7 @@ const index = () => {
                   <li className="desserts-page__item" key={cardId}>
                     <Link to={`${cardId}`} className="desserts-page__item-link" onClick={() => {
                       window.scrollTo({
-                        top: 315,
+                        top: 0,
                       })
                     }} >
                       <div className="desserts-page__item-link-imgBox">
