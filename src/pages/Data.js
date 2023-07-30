@@ -351,7 +351,7 @@ Osh tayyorlashda ajralmas ziravor — zira hisoblanadi. Achchiq qalampir haqida 
     cardTitle: "TEFTEL SHO’RVA TAYYORLASH — RETSEPTI, TAVSIYALAR, BOSQICHMA-BOSQICH + FOTO",
     cardDesc: `Bir qarashda, teftel va frikadelkalar bir xildek tuyuladi, lekin ularning farqi bor. Frikadelkalarga albatta yangi non, ko’katlar, ziravorlar qo’shladi va ularni suvda yoki bulyonda qaynatiladi. Teftel go’shtli qiymasiga esa tuxum, piyoz, sabzavotlar qo’shiladi va teftellar dastlab qovuriladi ham. Quyidagi retseptda guruchli teftel sho’rva tayyorlash usuli batafsil ko’rib chiqiladi. Qiyma, mayda qilib to’g’ralgan piyoz, 1 ta tuxum va yuvilgan guruch aralashtiriladi. Qiymaning tuzi rostlanadi va ta’bga qarab qalampir qo’shiladi. Qiyma yaxshilab aralashtirilgach, ulardan namlangan qo’llar bilan yong’oqdan biroz katta o’lchamdagi teftellar yasaladi, so’ng barchasi unga belab olinadi. Teftel tayyorlanishiTeftellar o’simlik moyida bir necha tomonidan qizartirib qovurib olinadi. So’ng ular yog’dan olinib, qaynab turgan suvga tushiriladi. ...
     5 daqiqadan keyin sho’rvaga qovurilgan sabzavotlar solinadi. Tuzi rostlanadi, ta’bga ko’ra qalampir qo’shiladi. Qozonning qopqog’i yopiladi, 5 daqiqa qaynagach, olov juda past qilinadi va yana kamida yarim soat qaynatiladi.
-Mazkur sho’rva juda to’yimli taomdir. Dasturxonga smetana yoki suzma va ko’katlar bilan tortiq qiliadi. Yoqimli ishtaha!`,
+    Mazkur sho’rva juda to’yimli taomdir. Dasturxonga smetana yoki suzma va ko’katlar bilan tortiq qiliadi. Yoqimli ishtaha!`,
   },
 
   {

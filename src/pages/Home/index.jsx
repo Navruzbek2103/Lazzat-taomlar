@@ -37,6 +37,7 @@ const index = () => {
    };
    let slicedData = allData.slice(setDataArray.start, setDataArray.end)
 
+
    return (
       <>
          <div className="container">
@@ -47,7 +48,7 @@ const index = () => {
                      slicedData.map(({ cardId, cardImage, cardType, cardTitle, cardDesc }) => {
                         return (
                            <li className="home-page__item" key={cardId}>
-                              <Link className="home-page__item-link">
+                              <Link to={`${cardId}`} className="home-page__item-link">
                                  <div className="home-page__item-link-imgBox">
                                     <img src={cardImage} alt="card image" className="home-page__item-link-imgBox-img" />
                                  </div>
