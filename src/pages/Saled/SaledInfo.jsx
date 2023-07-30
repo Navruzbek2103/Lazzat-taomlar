@@ -52,7 +52,11 @@ const index = () => {
               if (cardType === "Salatlar") {
                 return (
                   <li className="saled-page__item" key={cardId}>
-                    <Link to={`${cardId}`} className="saled-page__item-link">
+                    <Link to={`${cardId}`} className="saled-page__item-link" onClick={() => {
+                      window.scrollTo({
+                        top: 315,
+                      })
+                    }} >
                       <div className="saled-page__item-link-imgBox">
                         <img src={cardImage} alt="card image" className="saled-page__item-link-imgBox-img" />
                       </div>

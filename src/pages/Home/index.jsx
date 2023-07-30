@@ -48,7 +48,12 @@ const index = () => {
                      slicedData.map(({ cardId, cardImage, cardType, cardTitle, cardDesc }) => {
                         return (
                            <li className="home-page__item" key={cardId}>
-                              <Link to={`${cardId}`} className="home-page__item-link">
+                              <Link to={`${cardId}`} className="home-page__item-link" onClick={() => {
+                                 window.scrollTo({
+                                    top: 315,
+                                 })
+                              }}
+                              >
                                  <div className="home-page__item-link-imgBox">
                                     <img src={cardImage} alt="card image" className="home-page__item-link-imgBox-img" />
                                  </div>

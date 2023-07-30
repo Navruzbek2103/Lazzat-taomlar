@@ -52,7 +52,11 @@ const index = () => {
               if (cardType === "Ichimliklar") {
                 return (
                   <li className="desserts-page__item" key={cardId}>
-                    <Link to={`${cardId}`} className="desserts-page__item-link">
+                    <Link to={`${cardId}`} className="desserts-page__item-link" onClick={() => {
+                      window.scrollTo({
+                        top: 315,
+                      })
+                    }} >
                       <div className="desserts-page__item-link-imgBox">
                         <img src={cardImage} alt="card image" className="desserts-page__item-link-imgBox-img" />
                       </div>
